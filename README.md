@@ -1,4 +1,4 @@
-# MovieLibraryManagementSystem #
+# Movie Library Management System #
 
 This project is a small scale replica of the world renowned movie search and info
 system website “ imdb.com” . This project has been done using MYSQL
