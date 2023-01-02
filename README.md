@@ -12,6 +12,7 @@ operations such as joins , aggregate and nested queries , triggers and functions
 used for a variety of purposes .
 
 Hope you enjoy going through the project !!
+
 Regards
 
 Atharva 
