@@ -66,3 +66,36 @@ INSERT INTO ACTORS (Actor_ID , A_Name)
 VALUES ('0020', 'Matt Damon');
 INSERT INTO ACTORS (Actor_ID , A_Name)
 VALUES ('0021', 'Abigail Breslin');
+
+
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00001', 'Titanic','1997','Romance','8.0','0001','0003');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00002', 'Saving Private Ryan','1998','Action','8.6','0002','0003');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00003', 'Catch Me If You Can','2002','Drama','8.2','0002','0002');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00004', 'Rango','2011','Adventure','7.6','0003','0001');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00005', 'Pirates of the
+Caribbean','2003','Adventure','8.8','0003','0001');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00006', 'Kung Fu Panda','2008','Family','7.4','0004','0002');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00007', 'Avengers','2012','Action','7.2','0005','0004');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00008', 'Iron Man Civil War','2008','Action','7.6','0005','0004');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00009', 'The Post','2017','Thriller','7.2','0002','0003');
+INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
+PC_ID)
+VALUES ('00010', 'The Godfather','1972','Drama','9.4','0006','0005');
