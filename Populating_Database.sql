@@ -99,3 +99,63 @@ VALUES ('00009', 'The Post','2017','Thriller','7.2','0002','0003');
 INSERT INTO MOVIES (Movie_ID , Title , Release_year , Genre , Rating, Director_ID ,
 PC_ID)
 VALUES ('00010', 'The Godfather','1972','Drama','9.4','0006','0005');
+
+
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0001', '00001', 'Jack');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0003', '00001', 'Rose');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0002', '00002', 'Captain Miller');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0020', '00002', 'Private Ryan');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0001', '00003', 'Frank Abignale');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0002', '00003', 'Detective Carl Hanratty');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0019', '00003', 'Cheryl Ann');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0004', '00004', 'Rango');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0021', '00004', 'Priscilla');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0004', '00005', 'Captain Jack Sparrow');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0005', '00005', 'William Turner');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0006', '00005', 'Elizabeth Swann');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0009', '00006', 'Po');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0007', '00006', 'Monkey');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0008', '00006', 'Tigress');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0010', '00007', 'Iron Man');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0012', '00007', 'Captain America');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0013', '00007', 'Thor');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0014', '00007', 'Black Widow');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0015', '00007', 'Pepper Potts');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0010', '00008', 'Iron Man');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0012', '00008', 'Captain America');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0014', '00008', 'Black Widow');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0015', '00008', 'Pepper Potts');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0002', '00009', 'Ben Bradlee');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0011', '00009', 'Katharine Graham');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0016', '00010', 'Michael Corleone');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0017', '00010', 'Vito Corleone');
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0018', '00010', 'Connie');
