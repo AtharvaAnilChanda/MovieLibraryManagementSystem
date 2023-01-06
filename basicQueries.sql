@@ -24,3 +24,24 @@ SELECT MOVIES.Movie_ID , MOVIES.Title FROM MOVIES WHERE Movie_ID IN
     C.Title  = " Avengers "  
     data = c.fetchall()
     return data 
+
+---- Aggregate Queries 
+
+
+Select avg(select movies.rating)  FROM ACTORS A, ACTS B,MOVIES C
+	where 
+	A.Actor_ID = B.Actor_ID AND 
+	B.Movie_ID = C.Movie_ID AND
+    WHERE A_name = "Tom Hanks" 
+
+Select count(select movies.movie_id)  FROM ACTORS A, ACTS B,MOVIES C
+	where 
+	A.Actor_ID = B.Actor_ID AND 
+	B.Movie_ID = C.Movie_ID AND
+    WHERE A_name = "Robert De Niro" 
+
+Select max(select movies.rating)  FROM ACTORS A, ACTS B,MOVIES C
+	where 
+	A.Actor_ID = B.Actor_ID AND 
+	B.Movie_ID = C.Movie_ID AND
+    WHERE A_name = "Johnny Depp" 
