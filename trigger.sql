@@ -17,3 +17,15 @@ Delimiter //
     delimiter ;
 
 ---
+
+
+--- Test Cases
+
+
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0002', '00006', NULL);
+
+INSERT INTO ACTS (Actor_ID , Movie_ID , A_Role)
+VALUES ('0002', '00006', 'Master Shifu');
+
+---
