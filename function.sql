@@ -11,3 +11,15 @@ begin
     return c;
 end;%%
 
+
+---  Function that counts number of movies directed by a director given the director's name as input 
+
+delimiter %%
+create function getMovies1(DirectorName varchar(20))
+returns int
+deterministic
+begin
+    declare c int;
+    set c = (SELECT count(MOVIES.Director_ID) FROM MOVIES WHERE Director_ID IN (SELECT Director_ID FROM Directors WHERE D_Name = DirectorName)));
+    return c;
+end;%%
